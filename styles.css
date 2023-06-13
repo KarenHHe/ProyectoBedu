@@ -24,12 +24,20 @@ button {
     background-color: #025157;
 }
 
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #05838b;
+  height: 170px;
+}
+
 .header {
   margin: 40px 20px 0;
   font-size: 0;
   height: 45px;
   font-family: sans-serif;
-  background-color: #025157;
 }
 
 .header > * {
@@ -48,9 +56,8 @@ button {
 .navbar {
   width: 70%;
   height: 100%;
-  text-align: center;
-  vertical-align: middle;
-  color: #025157;
+  text-align:center;
+  color: #d5ecee;
   overflow: hidden;
 }
 
@@ -92,6 +99,7 @@ button {
 
 .publish {
   /* container styles if any */
+  margin-left: 30px;
   
 }
 
@@ -137,12 +145,7 @@ button {
   margin-top: 10px;
 }
 
-.fixed-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
+
 
 .TextAside{
   width: 70%;
@@ -240,8 +243,6 @@ width: 5%;
   font-family:'Courier New', Courier, monospace;
 }
 
-
-
 .comboPinterest button {
   color: white;
   background-color: #67b54b;
@@ -254,3 +255,128 @@ width: 5%;
   margin-right: 25px;
 }
 
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  background-color: #025157c2;
+  }
+  
+  .features .feature-card {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .features .Item1-1{margin: 25px 0 0 25px;}
+  .features .Item1-2{margin: 25px 25px 0 0;}
+  .features .Item2-1{margin: 0 0 25px 25px;}
+  .features .Item2-2{margin: 0 25px 25px 0;}
+
+  .features .feature-card .feature-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+  }
+  
+  .features .feature-card .feature-content > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  .features .feature-card .feature-content img {
+    width: 300px;
+  }
+
+  .features .feature-card .feature-content h3 {
+    font-size: 22px;
+    color: #0d7e8d;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .features .feature-card .feature-content p {
+    font-size: 16px;
+    color: #575656;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .features .feature-card .feature-content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .features .feature-card .feature-image {
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: -20px;
+    height: 60%;
+  }
+
+  .features .feature-card .feature-image figure,
+  .features .feature-card .feature-image img {
+  margin-top: 0;
+  height: 100%;
+  }
+
+
+  /*Lineas para estilo de grids 1-2, 2-1, 2-2*/
+  .features .feature-card .feature-content li {
+    font-size: 14px;
+    color: #4d045f;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .features .feature-card .feature-imageItem1-2 {
+    flex: 1;
+    width: 70%;
+    position: relative;
+    height: 70%;
+  }
+
+  .features .feature-card .feature-imageItem2-1 {
+    flex: 1;
+    width: 70%;
+    position: relative;
+    height: 70%;
+  }
+
+  .features .feature-card .feature-imageItem2-1 figure,
+  .features .feature-card .feature-imageItem2-1 img {
+  margin-top: 0;
+  height: 100%;
+  }
+
+  .features .feature-card .feature-content .moreLinks a {
+    font-size: 16px;
+    color: #2f3179;
+    font-weight: 600;
+
+
+  }
+
+  .features .Item2-2  {
+    background-image: url(https://acortar.link/hQaI6F);
+    background-size: 500px 400px;
+    background-position: 280px;
+    background-repeat: no-repeat;
+  }
+
+
+  
+
+  
+
+  
+
+
+  
