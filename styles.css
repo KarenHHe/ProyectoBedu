@@ -317,7 +317,7 @@ width: 5%;
     flex: 1;
     width: 40%;
     position: relative;
-    right: -20px;
+    right: -30px;
     height: 60%;
   }
 
@@ -336,11 +336,9 @@ width: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
-  .features .feature-card .feature-imageItem1-2 {
+  .features .feature-card .feature-imageItem1-2{
     flex: 1;
-    width: 70%;
-    position: relative;
-    height: 70%;
+    height: 50%;
   }
 
   .features .feature-card .feature-imageItem2-1 {
@@ -360,8 +358,6 @@ width: 5%;
     font-size: 16px;
     color: #2f3179;
     font-weight: 600;
-
-
   }
 
   .features .Item2-2  {
