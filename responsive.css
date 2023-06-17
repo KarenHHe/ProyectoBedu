@@ -51,6 +51,93 @@
         
     }
 
+    .promo {
+        flex-direction: column;
+        max-width: 90%;
+      }
+    
+      .explanatory-video > video {
+        width: 100%;
+      }
+
+      .publish {
+        margin-top: 10px;
+      }
+    
+      .publish > h3 {
+        font-size: 25px;
+        line-height: 1.2;
+      }
+
+    .biografia {
+        flex-direction: column;
+        display: flex;
+        width: 90%;
+        margin: 0px auto;
+        align-items: center;
+      }
+
+      .TextAside{
+        margin-right: 0;
+        width: 80%;
+      }
+      .TextAside p{
+        margin-bottom: 5px;
+      }
+
+      .TextAside button{
+        margin-top: 5px;
+      }
+      .TextAside .marcas{
+        align-items: center;
+      }
+
+      .comboPinterest{
+        margin: 40px 20px 25px 20px;
+        border-radius: 20px;
+        width: 90%;
+      }
+      .contentPinterest img {
+        width: 15%;
+      }
+      .contentPinterest p {
+        font-size: 16px;
+      }
+    
+      /*.features .feature-card .feature-imageItem2-1{
+        flex: 1;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+      }*/
+
+      .features .feature-card .feature-imageItem2-1 {
+        display:none;
+      }
+      .features .feature-card .feature-content {
+            padding: 30px 25px 40px 25px;
+            flex: 2;
+      }
+
+      .features .Item2-2  {
+        background-size: 400px 350px;
+        background-position: 1px 100px;
+        background-repeat: no-repeat;
+      }
+    
+      /*.explanatory-video > video {
+        width: 100%;
+      }
+
+      .publish {
+        margin-top: 10px;
+      }
+    
+      .publish > h3 {
+        font-size: 25px;
+        line-height: 1.2;
+      }*/
+
     /*.features .feature-card .feature-imageItem1-2 figure,
     .features .feature-card .feature-imageItem1-2 img {
     height: 100%;

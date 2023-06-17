@@ -344,7 +344,6 @@ width: 5%;
   .features .feature-card .feature-imageItem2-1 {
     flex: 1;
     width: 70%;
-    position: relative;
     height: 70%;
   }
 
@@ -366,6 +365,10 @@ width: 5%;
     background-position: 280px;
     background-repeat: no-repeat;
   }
+
+  .carousel.pointer-event {
+    padding: 10px;
+}
 
 
   
