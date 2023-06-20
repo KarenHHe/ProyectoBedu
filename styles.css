@@ -58,6 +58,7 @@ button {
   color: #d5ecee;
   font-weight: 500;
   overflow: hidden;
+  background-color: rgb(245, 233, 233);
 }
 
 .navbar li {
@@ -91,7 +92,7 @@ button {
 }
 
 .main {
-  margin-top: 285px;
+  margin-top: 90px;
   text-align: center;
 }
 
@@ -347,8 +348,8 @@ width: 5%;
 
   .features .feature-card .feature-imageItem2-1 figure,
   .features .feature-card .feature-imageItem2-1 img {
-  margin-top: 0;
-  height: 100%;
+    margin-top: 0;
+    height: 100%;
   }
 
   .features .feature-card .feature-content .moreLinks a {

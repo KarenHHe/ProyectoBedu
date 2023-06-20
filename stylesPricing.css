@@ -1,0 +1,81 @@
+.navbar {
+    text-align:center;
+    color: #d5ecee;
+    font-weight: 500;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  
+  .actions {
+    text-align: right;
+    vertical-align: middle;
+    font-size: 14px;
+  }
+  
+  .actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+  .actions a {
+    color: #67b54b;
+  }
+  
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  .faq {
+    margin-top: 50px;
+    padding-bottom: 120px;
+  }
+  
+  .faq h2 {
+    color: #025157;
+    font-family: "Alegreya", serif;
+  }
+  
+  .faq .card-header {
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
+  .faq h2 > button {
+    color: #025157;
+    font-size: 28px;
+    font-weight: 900;
+  }
+  
+  .faq .card .card-body a {
+    color: #6abf4b;
+  }
+
+  .header > * {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #025157;
+  }
+
+  .header p {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }

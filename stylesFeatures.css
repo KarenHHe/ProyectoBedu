@@ -1,0 +1,41 @@
+.navbar {
+    text-align:center;
+    color: #d5ecee;
+    font-weight: 500;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  
+  .actions {
+    text-align: right;
+    vertical-align: middle;
+    font-size: 14px;
+  }
+  
+  .actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+  .actions a {
+    color: #67b54b;
+  }
+  
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  .container {
+    margin-top: 90px;
+    text-align: center;
+  }
