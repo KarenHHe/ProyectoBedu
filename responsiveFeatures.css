@@ -1,0 +1,17 @@
+@media screen and (max-width: 770px){
+
+    .card_mb-31 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .row1-1{
+        text-align: center;
+    }
+    
+    .col-md-6 .row2{
+    padding-left: 25px;
+    padding-top: 10px;
+    vertical-align: middle;
+    justify-content: center;
+    }
+}
