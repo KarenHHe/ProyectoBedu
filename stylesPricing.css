@@ -3,6 +3,7 @@
     color: #d5ecee;
     font-weight: 500;
     overflow: hidden;
+    background-color: rgb(245, 233, 233);
   }
   
   .navbar li {

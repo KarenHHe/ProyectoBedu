@@ -369,6 +369,10 @@ width: 5%;
     padding: 10px;
 }
 
+.texto-boton:hover{
+  background-color: #b81cb0;
+}
+
 
   
 
